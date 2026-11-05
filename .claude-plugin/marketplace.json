@@ -20,6 +20,22 @@
       "homepage": "https://github.com/isabel-nh/claude-env-rejector",
       "license": "MIT",
       "keywords": ["secrets", "env", "dotenv", "security", "mod"]
+    },
+    {
+      "name": "git-aware-fs",
+      "source": { "source": "url", "url": "https://github.com/isabel-nh/claude-git-aware-fs.git" },
+      "description": "Routes rm and mv of git-tracked paths through git rm and git mv so the index stays in sync.",
+      "homepage": "https://github.com/isabel-nh/claude-git-aware-fs",
+      "license": "MIT",
+      "keywords": ["git", "rm", "mv", "index", "mod"]
+    },
+    {
+      "name": "commitmsg-formatter",
+      "source": { "source": "url", "url": "https://github.com/isabel-nh/claude-commitmsg-formatter.git" },
+      "description": "Validates git commit messages: one leading gitmoji, 50-character subject, 72-column body, no colon prefix, no editor-opening commits.",
+      "homepage": "https://github.com/isabel-nh/claude-commitmsg-formatter",
+      "license": "MIT",
+      "keywords": ["git", "commit", "gitmoji", "lint", "mod"]
     }
   ]
 }

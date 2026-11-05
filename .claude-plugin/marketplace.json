@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "sentinel",
-      "source": { "source": "github", "repo": "isabel-nh/claude-sentinel" },
+      "source": { "source": "url", "url": "https://github.com/isabel-nh/claude-sentinel.git" },
       "description": "Marks every file Claude writes with a manual-review sentinel line, guards it from removal, and blocks commits until a person deletes it.",
       "homepage": "https://github.com/isabel-nh/claude-sentinel",
       "license": "MIT",
@@ -15,7 +15,7 @@
     },
     {
       "name": "env-rejector",
-      "source": { "source": "github", "repo": "isabel-nh/claude-env-rejector" },
+      "source": { "source": "url", "url": "https://github.com/isabel-nh/claude-env-rejector.git" },
       "description": "Denies Read, Bash and Grep access to .env files and strips .env hits from Grep results, so secrets stay out of the model's context.",
       "homepage": "https://github.com/isabel-nh/claude-env-rejector",
       "license": "MIT",

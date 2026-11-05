@@ -19,4 +19,4 @@ Claude Code marketplace for the mods and plugins hosted at [github.com/isabel-nh
 
 ## Adding a plugin
 
-Append an entry to `.claude-plugin/marketplace.json` with a `github` source pointing at the plugin's repository, then run `claude plugin validate .`.
+Append an entry to `.claude-plugin/marketplace.json` with a `url` source pointing at the plugin repository's HTTPS clone URL (`https://github.com/isabel-nh/<repo>.git`), then run `claude plugin validate .`. Do not use a `github` source: plugin installs clone it over SSH, which fails on machines without a GitHub SSH key.
